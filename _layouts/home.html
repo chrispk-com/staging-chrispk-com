@@ -10,7 +10,7 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-      {% assign album = site.data.albums.[post.album] %}
+      {% assign album = site.data.albums[post.album] %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}{% include get_album_info.html %}</span>

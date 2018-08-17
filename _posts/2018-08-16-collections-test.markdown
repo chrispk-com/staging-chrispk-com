@@ -6,7 +6,7 @@ categories: 35mm
 album: secret-garden-party-2010
 excerpt: 
 ---
-{% assign album = site.data.albums.[page.album] %}
+{% assign album = site.data.albums[page.album] %}
 
 {% assign image = album.photos[1] %}{% include print_album_image.html %}
 
