@@ -10,14 +10,15 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
+      {% assign album = site.data.albums.[post.album] %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}{% include get_album_info.html %}</span>
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
-        {% if post.album.size > 0 %}
-          <a class="post-link" href="{{ post.url | relative_url }}"><img title="{{ post.title | escape }}" src="{{ post.album[0].src }}=w740" alt="{{ post.album[0].alt }}"></a>
+        {% if album.size > 0 %}
+          <a class="post-link" href="{{ post.url | relative_url }}"><img title="{{ post.title | escape }}" src="{{ album.photos[album.cover].src }}=w740" alt="{{ album.photos[album.cover].alt }}"></a>
         {% endif %}
       </li>
     {% endfor %}

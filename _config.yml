@@ -30,6 +30,10 @@ google_adsense: ca-pub-1202132740341897
 markdown: kramdown
 theme: minima
 
+collections:
+  albums:
+    output: false
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap

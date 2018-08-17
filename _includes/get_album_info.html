@@ -1,5 +1,5 @@
 {% if post.album %}
-	{% assign album_size = post.album.size | default: 0 %}
+	{% assign album_size = album.photos.size | default: 0 %}
 	{% if album_size > 1 %} | {{ album_size }} photos
 	{% elsif album_size == 1 %} | 1 photo
 	{% endif %}
