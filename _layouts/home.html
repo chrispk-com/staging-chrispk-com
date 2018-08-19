@@ -17,14 +17,18 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
-        {% if album.size > 0 %}
-          <a class="post-link" href="{{ post.url | relative_url }}"><img title="{{ post.title | escape }}" src="{{ album.photos[album.cover].src }}=w740" alt="{{ album.photos[album.cover].alt }}"></a>
+        {% if album.photos.size > 0 %}
+          {% assign cover_image = 0 %}
+          {% if album.cover and album.cover < album.photos.size %}
+            {% assign cover_image = album.cover %}
+          {% endif %}
+          <a class="post-link" href="{{ post.url | relative_url }}"><img title="{{ post.title | escape }}" src="{{ album.photos[cover_image].src }}=w740" alt="{{ album.photos[cover_image].alt }}"></a>
         {% endif %}
       </li>
     {% endfor %}
   </ul>
 
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
 </div>
 

@@ -1,1 +1,5 @@
+{% if include.album_index %}
+	{% assign image = album.photos[include.album_index] %}
+{% endif %}
+
 ![{{ image.alt }}]({{ image.src }}=w740-h740 "{{ image.title }}")
