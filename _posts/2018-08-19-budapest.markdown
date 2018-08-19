@@ -1,0 +1,89 @@
+---
+title: Budapest, Hungary
+layout: post
+categories: 35mm
+album: 2018-06-budapest
+excerpt:
+---
+{% assign album = site.data.albums[page.album] %}
+
+{% include print_album_image.html album_index=0 %}
+
+Boarding flight 2204 to Budapest at London Luton Airport.
+
+Ben looks like a rockstar.
+
+{% include print_album_image.html album_index=1 %}
+
+Colourful, cylindrical lighting tubes contributed to the underground feel and decoration of [Rácskert][racskert], a streetfood popup we frequented to 'refuel'.
+
+{% include print_album_image.html album_index=2 %}
+
+Either Ben, Matt and Joe are looking up appreciating the decor or they've each spotted something different and interesting in the sky...
+
+{% include print_album_image.html album_index=3 %}
+
+Castle Town's view of the hills surrounding Budapest. I think this is part of Zugliget Hill.
+
+{% include print_album_image.html album_index=4 %}
+
+Hungarian national flags in Castle Town.
+
+{% include print_album_image.html album_index=5 %}
+
+Leading down and away from [Buda Castle][buda-castle]...
+
+{% include print_album_image.html album_index=6 %}
+
+Budapest's [Liberty Statue][liberty-statue] was a hotspot for tourist selfie's. Unfortunately lighting conditions, at least while we were there, didn't make this ideal.
+
+{% include print_album_image.html album_index=7 %}
+
+I like this shot's composition and view (of course). However, the grain in the clouds shouldn't be as prominent as it is...
+
+As can be said for most of the photos in this album, I think either I underrated the speed of the stock or the light metre on my 50 year old camera is slightly out.
+
+{% include print_album_image.html album_index=8 %}
+
+'Intentionally' focused (or perhaps just out) on the fence at the bottom of frame as the children's railway train arrives. Despite the technical issues, I quite like how this came out.
+
+{% include print_album_image.html album_index=9 %}
+
+The [Elizabeth Lookout Tower][elizabeth-lookout-tower] on János Hill.
+
+I waited for the best opportunity to get a good photo of the tower. As a result I ended up taking what I could as we were about to leave.
+
+{% include print_album_image.html album_index=10 %}
+
+The wall of our aparment block's interior courtyard, covered with bullet holes from the war.
+
+I'm not sure whether it was left like this intentionally, as a form remembering and respecting the cultural significance, or if refurbishments had simplty never been made. Possibly a combination of both... Whatever the case it left a lasting impression whenever we left or arrived at the apartment we were staying at.
+
+{% include print_album_image.html album_index=11 %}
+
+The staircase of the main hall in the [Hungarian Parliament Building][hungarian-parliament-building].
+
+Just behind us was the central Domed Hall of the Parliament Building where photography was stricly not allowed and the [Holy Crown of Hungary][holy-crown-hungary] and other crown jewels were on display. This hall had models of all the previous monarchs of Hungary decorating the base of the domed ceiling. I felt a little bit like I was in Lord of the Rings.
+
+{% include print_album_image.html album_index=12 %}
+
+Where the politicians of the [Hungarian Parliament Building][hungarian-parliament-building] 'get busy'.
+
+{% include print_album_image.html album_index=13 %}
+
+My one photo from inside [St. Stephen's Basilica][st-stephen-basilica]. I don't know whether this was all the light I had or if I was trying to compensate and retain detail in the window.
+
+{% include print_album_image.html album_index=14 %}
+
+Taken shortly before catching our flight back to the UK. I particularly like the backlighting on the bricks complemented by the out of focus, overexposed background.
+
+We had our last coffee and breakfast in Budapest at [Fekete][fekete], a cafe in a closed courtyard on the opposite side of this dimly lit pathway.
+
+[racskert]: https://goo.gl/maps/SgrdHdiXFko
+[buda-castle]: https://goo.gl/maps/EVr9c9tnC5B2
+[liberty-statue]: https://en.wikipedia.org/wiki/Liberty_Statue_(Budapest)
+[elizabeth-lookout-tower]: https://en.wikipedia.org/wiki/Elizabeth_Lookout,_Budapest
+[hungarian-parliament-building]: https://en.wikipedia.org/wiki/Hungarian_Parliament_Building
+[holy-crown-hungary]: https://en.wikipedia.org/wiki/Holy_Crown_of_Hungary
+[st-stephen-basilica]: https://en.wikipedia.org/wiki/St._Stephen%27s_Basilica
+[fekete]: https://goo.gl/maps/HTgxPZSeHk32
