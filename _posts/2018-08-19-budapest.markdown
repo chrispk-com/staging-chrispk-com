@@ -3,7 +3,11 @@ title: Budapest, Hungary
 layout: post
 categories: 35mm
 album: 2018-06-budapest
-excerpt:
+excerpt: >
+  A 5-day trip to Budapest in June 2018.
+  See photos (taken on 35mm film) in Castle Town, the Citadella and next to Liberty Statue.
+  Also from the Children's Railway station, a visit to the Elizabeth Lookout Tower
+  and the very impressive Hungarian Parliament Building.
 ---
 {% assign album = site.data.albums[page.album] %}
 
@@ -19,7 +23,7 @@ Colourful, cylindrical lighting tubes contributed to the underground feel and de
 
 {% include print_album_image.html album_index=2 %}
 
-Either Ben, Matt and Joe are looking up appreciating the decor or they've each spotted something different and interesting in the sky...
+Posers...
 
 {% include print_album_image.html album_index=3 %}
 

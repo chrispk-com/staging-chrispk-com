@@ -1,0 +1,31 @@
+---
+title: Ashfest "Sashfest" 2018
+layout: post
+categories: 35mm
+album: 2018-06-ashfest
+excerpt: >
+  A 3-day camping trip in July 2018 celebrating 2 friends' birthdays. See photos (taken on 35mm film) from the South Downs National Park near Selham, Petworth during magic hour and sunset.
+---
+{% assign album = site.data.albums[page.album] %}
+
+{% include print_album_image.html album_index=0 %}
+
+Going camping for 2 nights in the [South Downs National Park][south-downs] for Ashley's and Sandra's birthday (hence the name), I wasn't expecting there to be any particularly great photo opportunities. However the sunset on Saturday evening caught me by surprise.
+
+I think the shadows made by the trees on the ground are what initially caught my attention that evening. The blown out sun and colour retention in the patches of visible sky are also very nice.
+
+{% include print_album_image.html album_index=1 %}
+
+I really liked the tones of blue light reflecting off of the foliage in the background. It's not quite as vibrant as I remember it when I was there but still visible.
+
+{% include print_album_image.html album_index=2 %}
+
+I was about to lose the sun here as it was moving behind trees in the distance to my right. Lots of smooth gradients going on in here; the sky moving from orange to blue and the grassy hills in various shades of green and red.
+
+{% include print_album_image.html album_index=3 %}
+
+The last photo I took before the sun set. I think I was losing light.
+
+The sun provided a nice three-quater backlight to the barbeque which emphasized the smoke and nicely rim lit the Ashfest gang standing around it.
+
+[south-downs]: https://goo.gl/maps/JdkufFFg8Vy
