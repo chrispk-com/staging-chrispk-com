@@ -3,7 +3,10 @@ title: Lumiere London 2018
 layout: post
 categories: 35mm
 album: 2018-london-lumiere
-excerpt:
+excerpt: >
+    Photos from London Lumiere 2018 - a festival of light installations which takes place each Winter in London.
+    See installation
+
 ---
 {% assign album = site.data.albums[page.album] %}
 
