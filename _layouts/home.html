@@ -22,7 +22,7 @@ layout: default
           {% if album.cover and album.cover < album.photos.size %}
             {% assign cover_image = album.cover %}
           {% endif %}
-          <a class="post-link" href="{{ post.url | relative_url }}"><img title="{{ post.title | escape }}" src="{{ album.photos[cover_image].src }}=w740" alt="{{ post.excerpt }}"></a>
+          <a class="post-link" href="{{ post.url | relative_url }}"><img title="{{ post.title | escape }}" src="{{ album.photos[cover_image].src }}=w740" alt="{{ post.excerpt | escape }}"></a>
         {% endif %}
       </li>
     {% endfor %}
