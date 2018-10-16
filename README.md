@@ -1,0 +1,1 @@
+Personal blog of Chris Park-Kennaby. Mostly posting my travel photography - shot mainly on 35mm film - on a bi-monthly basis. May also write about film and technology on occasion.

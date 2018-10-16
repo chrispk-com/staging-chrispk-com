@@ -54,4 +54,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - 35mmblog.sublime-project
+  - README.md
