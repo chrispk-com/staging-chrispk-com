@@ -1,5 +1,6 @@
 ---
 title: Budapest, Hungary
+slug: budapest
 layout: post
 categories: 35mm
 album: 2018-06-budapest

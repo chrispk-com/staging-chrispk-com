@@ -1,9 +1,13 @@
 ---
 title: Amsterdam 2012
+slug: amsterdam
 layout: post
 categories: 35mm
 album: 2012-amsterdam
-excerpt:
+excerpt: >
+  A trip to Amsterdam with a group of university friends in June 2012.
+  See photos of Amsterdam's canals and coffee shops as well photos taken
+  near Camp Zeeburg and outside the Ann Frank House.
 ---
 {% assign album = site.data.albums[page.album] %}
 
@@ -33,7 +37,7 @@ A more conventionally composed shot of the one of the streets adjacent to the ca
 
 {% assign image = album.photos[6] %}{% include print_album_image.html %}
 
-Color. We just missed the last entry to the Anne Frank museum. I seem to remember loading a new roll of film in the camera just to get a shot of this.
+Color. We just missed the last entry to the Anne Frank museum, [Anne Frank House][anne-frank-house]. I seem to remember loading a new roll of film in the camera just to get a shot of this.
 
 {% assign image = album.photos[7] %}{% include print_album_image.html %}
 
@@ -42,3 +46,5 @@ Walking over Zuiderzeeweg bridge back to Camp Zeeburg, the view of one of Amster
 {% assign image = album.photos[8] %}{% include print_album_image.html %}
 
 Taken from the entrance of Camp Zeeburg. Zuiderzeeweg bridge passing over the canal, Mond vet Het Amsterdam-Rijnkanaal.
+
+[anne-frank-house]: https://www.annefrank.org/en/ "Anne Frank House"

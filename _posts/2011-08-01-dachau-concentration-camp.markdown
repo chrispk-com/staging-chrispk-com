@@ -1,9 +1,11 @@
 ---
 title: Dachau Concentration Camp
+slug: dachau-concentration-camp
 layout: post
 categories: 35mm
 album: 2011-dachau-concentration-camp
-excerpt:
+excerpt: >
+  I visited Dachau Concentration Camp whilst on a spontaneous trip to Germany (planned and set off within a couple of hours) with my housemate in 2011. See photos taken inside the buildings of the Dachau Concentration Camp facility and of the courtyard, barracks and museum exhibits.
 ---
 {% assign album = site.data.albums[page.album] %}
 

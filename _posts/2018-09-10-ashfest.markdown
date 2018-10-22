@@ -1,5 +1,6 @@
 ---
 title: Ashfest "Sashfest" 2018
+slug: ashfest
 layout: post
 categories: 35mm
 album: 2018-06-ashfest

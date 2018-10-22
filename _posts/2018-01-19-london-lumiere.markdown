@@ -1,12 +1,13 @@
 ---
 title: Lumiere London 2018
+slug: london-lumiere
 layout: post
 categories: 35mm
 album: 2018-london-lumiere
 excerpt: >
-    London Lumiere is a festival of light installations which takes every year in London.
-    See photos of Waterlicht, which used laser projectors and mist in Granary Square,
-    Child Hood, involving hundreds of floating baloons in Trafalgar Square, and Harmonic Portal, a really simple but effective installation.
+  London Lumiere is a festival of light installations which takes every year in London.
+  See photos of Waterlicht, which used laser projectors and mist in Granary Square,
+  Child Hood, involving hundreds of floating baloons in Trafalgar Square, and Harmonic Portal, a really simple but effective installation.
 ---
 {% assign album = site.data.albums[page.album] %}
 

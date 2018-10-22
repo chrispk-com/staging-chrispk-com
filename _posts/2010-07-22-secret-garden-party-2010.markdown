@@ -1,10 +1,11 @@
 ---
-title: 	Secret Garden Party 2010
+title: 	The Secret Garden Party 2010
 slug: secret-garden-party
 layout:	post
 categories: 35mm
 album: 2010-secret-garden-party
-excerpt: 
+excerpt: >
+  I attended The Secret Garden Party (an arts and music festival which used to be held in Cambridgeshire, UK, around July) in 2010. See photos of the 'Is Land' (a floating art peice which was cut from its tethers during SGP), festival goers and some of my experimental photography taken whilst working shifts at 'The Boneyard' (the festival's equipment store).
 ---
 {% assign album = site.data.albums[page.album] %}
 

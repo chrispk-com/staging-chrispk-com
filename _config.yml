@@ -24,6 +24,8 @@ url: "https://chrispk.com" # the base hostname & protocol for your site, e.g. ht
 permalink: /:year/:title/
 twitter_username: chrispykay
 github_username:  chrispk
+instagram_username: beingchrispy
+rss: rss
 google_analytics: UA-49230171-1
 google_adsense: ca-pub-1202132740341897
 # Build settings

@@ -1,9 +1,12 @@
 ---
 title: Bestival 2012
+slug: bestival
 layout: post
 categories: 35mm
 album: 2012-bestival
-excerpt:
+excerpt: >
+  I attended Bestival (an indie/dance, music festival held in the south of England towards the end of summer) in 2012 when it based at Robin Hill Park on the Isle of Wight. See photos taken at the start of the festival activities and towards the end in the middle of night during which Oxfam Stewards (myself included) were patrolling the festival's campsites in response to reports of thefts and tent burnings.
+
 ---
 {% assign album = site.data.albums[page.album] %}
 

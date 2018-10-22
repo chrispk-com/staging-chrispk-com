@@ -1,9 +1,11 @@
 ---
 title: AUB Graduation Film Shoots
+slug: grad-film-shoots
 layout: post
 categories: 35mm
 album: 2012-grad-film-shoots
-excerpt:
+excerpt: >
+  The graduate film shoots take place over a 6 week period between February and March each year at AUB (The Arts University Bournemouth). See the few photos I took whilst working as part of the camera or lighting crew on classmates graduation film projects in 2012.
 ---
 {% assign album = site.data.albums[page.album] %}
 
