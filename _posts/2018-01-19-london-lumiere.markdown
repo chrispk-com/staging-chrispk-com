@@ -1,6 +1,7 @@
 ---
 title: Lumiere London 2018
 slug: london-lumiere
+last_modified_at:
 layout: post
 categories: 35mm
 album: 2018-london-lumiere

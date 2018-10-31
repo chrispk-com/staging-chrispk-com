@@ -1,6 +1,7 @@
 ---
 title: Dachau Concentration Camp
 slug: dachau-concentration-camp
+last_modified_at:
 layout: post
 categories: 35mm
 album: 2011-dachau-concentration-camp

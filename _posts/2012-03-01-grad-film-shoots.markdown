@@ -1,6 +1,7 @@
 ---
 title: AUB Graduation Film Shoots
 slug: grad-film-shoots
+last_modified_at:
 layout: post
 categories: 35mm
 album: 2012-grad-film-shoots

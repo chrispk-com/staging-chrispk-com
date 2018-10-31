@@ -1,6 +1,7 @@
 ---
 title: 	The Secret Garden Party 2010
 slug: secret-garden-party
+last_modified_at:
 layout:	post
 categories: 35mm
 album: 2010-secret-garden-party

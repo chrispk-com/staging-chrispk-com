@@ -1,6 +1,7 @@
 ---
 title: Melville Road, Bournemouth
 slug: melville-road
+last_modified_at:
 layout: post
 categories: 35mm
 album: 2012-melville-road

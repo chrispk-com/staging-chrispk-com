@@ -1,6 +1,7 @@
 ---
 title: Amsterdam 2012
 slug: amsterdam
+last_modified_at:
 layout: post
 categories: 35mm
 album: 2012-amsterdam
