@@ -1,0 +1,13 @@
+---
+title: Cyprus with Havana Londres
+slug: cyprus
+last_modified_at:
+layout: post
+categories: 35mm
+album: 2018-09-cyprus
+excerpt: >
+  
+---
+{% assign album = site.data.albums[page.album] %}
+
+{% include print_album_image.html album_index=0 %}
