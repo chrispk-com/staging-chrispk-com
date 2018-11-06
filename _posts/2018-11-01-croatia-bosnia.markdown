@@ -10,3 +10,4 @@ excerpt: >
 ---
 {% assign album = site.data.albums[page.album] %}
 
+{% include print_album_image.html album_index=0 %}
