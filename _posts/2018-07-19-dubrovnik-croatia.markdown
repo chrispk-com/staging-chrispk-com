@@ -22,21 +22,15 @@ I like the level of long-distance depth in this image - seeing into the medieval
 
 {% include print_album_image.html album_index=2 %}
 
-Lokrum Island
-
-{% include print_album_image.html album_index=3 %}
-
 What happens when you hand a manual film camera to first unsuspecting tourist carrying an D-SLR...
 
 I severly regret not taking a shot overlooking Old Town from this vantage point.
 
+{% include print_album_image.html album_index=3 %}
+
 {% include print_album_image.html album_index=4 %}
 
-A better photo, taken by another much more confident tourist.
-
-{% include print_album_image.html album_index=5 %}
-
-{% include print_album_image.html album_index=6 %}
+Lokrum Island
 
 {% comment %}
 [Bosnia]({% post_url 2018-07-20-bosnia %})
