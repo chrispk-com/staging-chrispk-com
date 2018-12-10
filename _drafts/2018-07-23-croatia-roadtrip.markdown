@@ -1,6 +1,6 @@
 ---
-title: Croatia roadtrip
-slug: croatia-roadtrip
+title: "Adriatics: Dalmatia, Croatia"
+slug: dalmatia-croatia
 last_modified_at:
 layout: post
 categories: 35mm

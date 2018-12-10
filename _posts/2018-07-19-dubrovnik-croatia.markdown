@@ -1,5 +1,5 @@
 ---
-title: Dubrovnik, Croatia
+title: "Adriatics: Dubrovnik, Croatia"
 slug: dubrovnik-croatia
 last_modified_at:
 layout: post
