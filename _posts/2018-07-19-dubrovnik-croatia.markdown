@@ -7,8 +7,8 @@ categories: 35mm
 album: 2018-07-dubrovnik-croatia
 excerpt: >
   See photos taken in Dubrovnik's Old Town, from the City Walls and of the nearby Lokrum Island.
-  These were taken during a 2-day visit to Dubrovnik - Croatia's capital city -
-  which preceeded a 10-day vacation involving a roadtrip through Bosnia and northern Croatia
+  These were taken during a 2-day visit in mid-July to Dubrovnik - Croatia's capital city.
+  This visit was the start of a 12-day vacation involving a roadtrip through Bosnia and northern Croatia
   as well as attending Soundwave, a music festival in Tisno.
 ---
 {% assign album = site.data.albums[page.album] %}

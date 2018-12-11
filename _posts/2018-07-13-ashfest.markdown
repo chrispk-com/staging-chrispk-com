@@ -7,6 +7,7 @@ categories: 35mm
 album: 2018-06-ashfest
 excerpt: >
   A 3-day camping trip in July 2018 celebrating 2 friends' birthdays. See photos (taken on 35mm film) from the South Downs National Park near Selham, Petworth during magic hour and sunset.
+redirect_from: /2018/ashfest-2018/
 ---
 {% assign album = site.data.albums[page.album] %}
 
