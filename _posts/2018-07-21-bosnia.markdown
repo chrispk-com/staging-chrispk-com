@@ -13,23 +13,23 @@ excerpt: >
 
 {% include print_album_image.html album_index=0 %}
 
-[Vrelo Bune][vrelo-bune] (Buna Spring).
+[Vrelo Bune][vrelo-bune]{:target="blank"} (Buna Spring).
 
-Cave of the source of the Buna River in [Blagaj][blagaj], a village-town near [Mostar][mostar].
+Cave of the source of the Buna River in [Blagaj][blagaj]{:target="blank"}, a village-town near [Mostar][mostar]{:target="blank"}.
 
 During a tour of the interior cavern we learnt that approximately 30,000 litres (30 m<sup>3</sup>) of clean water flow from the spring every second. The water in the cave is also up to 9 metres deep whilst the tunnels, supplying the spring water, have a depth of up to 30 metres in places.
 
-After learning more about the cave we were in I experienced mild [Thalassophobia][thalassophobia] and became much more conscious when putting my hand in the water surrrounding us.
+After learning more about the cave we were in I experienced mild [Thalassophobia][thalassophobia]{:target="blank"} and became much more conscious when putting my hand in the water surrrounding us.
 
-After exploring more of [Vrelo Bune][vrelo-bune] and [Blagaj village][blagaj] - including the Blagaj Tekke (a historic Dervish monastry built right next to the spring in the 1600s) which is partially visible in the top left this photo - we continued on to [Mostar][mostar].
+After exploring more of [Vrelo Bune][vrelo-bune]{:target="blank"} and [Blagaj village][blagaj]{:target="blank"} - including the Blagaj Tekke (a historic Dervish monastry built right next to the spring in the 1600s) which is partially visible in the top left this photo - we continued on to [Mostar][mostar]{:target="blank"}.
 
 {% include print_album_image.html album_index=1 %}
 
-[Stari Most][stari-most], Mostar's historic 16th century bridge, with Hum Hill in the background.
+[Stari Most][stari-most]{:target="blank"}, Mostar's historic 16th century bridge, with Hum Hill in the background.
 
 This photo was taken the day after we'd arrived in Mostar. We'd explored the city the previous evening but weren't able to appreciate this idyllic view when it was dark.
 
-I like how much detail is captured in this photo despite being quite a wide shot. [Križ na Humu][kriz-na-humu], *The Millennium Cross* on Hum Hill, and the crowds of spectators, watching the performance divers (from the bridge and the lower viewing area), are both clearly visible.
+I like how much detail is captured in this photo despite being quite a wide shot. [Križ na Humu][kriz-na-humu]{:target="blank"}, *The Millennium Cross* on Hum Hill, and the crowds of spectators, watching the performance divers (from the bridge and the lower viewing area), are both clearly visible.
 
 {% include print_album_image.html album_index=2 %}
 
@@ -41,15 +41,15 @@ I'm fairly certain it would ruined the rest of my holiday.
 
 {% include print_album_image.html album_index=3 %}
 
-[Kravica lake and waterfall][kravica-waterfalls] (also known as Kravice).
+[Kravica lake and waterfall][kravica-waterfalls]{:target="blank"} (also known as Kravice).
 
 We stopped at Kravice on our way out of Bosnia and back into Croatia.
 
 {% include print_album_image.html album_index=4 %}
 
-I was trying to take advantage of the late evening light in this photo.
+I was trying to take advantage of the late afternoon light in this photo.
 
-I like the backlighting the sun provides, highlighting the lady and the swimmers as well as pronouncing the mist from the waterfall (on the left of frame) and the water texture.
+I like the backlighting provided by the sun, highlighting the lady and the swimmers as well as pronouncing the mist from the waterfall (on the left of frame) and the water texture.
 
 {% comment %} TODO: check whether image contains improved highlight detail after re-digitizing negative {% endcomment %}
 
