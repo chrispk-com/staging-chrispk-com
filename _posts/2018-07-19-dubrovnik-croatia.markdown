@@ -1,5 +1,5 @@
 ---
-title: "Adriatics: Dubrovnik, Croatia"
+title: Dubrovnik, Croatia | Adriatic roadtrip
 slug: dubrovnik-croatia
 last_modified_at:
 layout: post

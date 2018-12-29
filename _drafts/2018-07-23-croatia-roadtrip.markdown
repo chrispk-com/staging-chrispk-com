@@ -1,5 +1,5 @@
 ---
-title: "Adriatics: Dalmatia, Croatia"
+title: Dalmatia, Croatia | Adriatic roadtrip
 slug: dalmatia-croatia
 last_modified_at:
 layout: post
