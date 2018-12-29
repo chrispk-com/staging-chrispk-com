@@ -6,8 +6,10 @@ layout: post
 categories: 35mm
 album: 2018-07-bosnia
 excerpt: >
-  See photos taken in Mostar and at Kravica Waterfalls in Bosnia during a 12-day roadtrip through some of the Adriatic countries in 2018.
-  
+  See photos of the Vrelo Bune (source of the Buna river in Blagaj),
+  Stari Most (the historic 16th century bridge in Mostar)
+  and Kravice falls taken whilst travelling through Bosnia
+  as part of a 12-day roadtrip around some of the Adriatic countries in 2018.
 ---
 {% assign album = site.data.albums[page.album] %}
 
