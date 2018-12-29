@@ -52,7 +52,6 @@ I was trying to take advantage of the late afternoon light in this photo.
 I like the backlighting provided by the sun, highlighting the lady and the swimmers as well as pronouncing the mist from the waterfall (on the left of frame) and the water texture.
 
 {% comment %} TODO: check whether image contains improved highlight detail after re-digitizing negative {% endcomment %}
-
 It's a shame that the sky has been blown out. However I suspect that the film negative may still retain some of this detail.
 
 
