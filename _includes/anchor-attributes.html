@@ -1,0 +1,15 @@
+{%- comment-%} set target default {%- endcomment-%}
+{%- if include.target -%}
+{%- assign target = include.target -%}
+{%- else -%}
+{%- assign target = "&#95;blank" -%}
+{%- endif -%}
+
+{%- comment-%} set rel default {%- endcomment-%}
+{%- if include.rel -%}
+{%- assign rel = include.target -%}
+{%- else -%}
+{%- assign rel = "noopener noreferrer" -%}
+{%- endif -%}
+
+{:target="{{ target }}" rel="{{ rel }}"}
