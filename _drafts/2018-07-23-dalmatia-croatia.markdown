@@ -6,7 +6,8 @@ layout: post
 categories: 35mm
 album: 2018-07-dalmatia-croatia
 excerpt: >
-  See photos of Soundwave 2019 (The Final Wave), Tisno (the town nearby), Hvar and Zadar taken as part of a 12 day roadtrip through Croatia and Bosnia.
+  See photos from Soundwave (a music festival held at the Tisno Garden in Croatia),
+  Tisno (the closest nearby town), Hvar and Zadar which were taken as part of a 12 day roadtrip through adriatic countries Croatia and Bosnia.
 ---
 {% assign album = site.data.albums[page.album] %}
 
@@ -14,9 +15,9 @@ These photos needed considerably more colour correct than normal.
 
 {% include print_album_image.html album_index=0 %}
 
-Hvar Island.
+[Hvar Island][hvar-island]{% include anchor-attributes.html %}.
 
-This shot overlooks the islands main town, also called Hvar.
+This shot overlooks the islands main town, also called [Hvar][hvar-town]{% include anchor-attributes.html %}.
 
 There are a couple of nightclubs on the island, Pink Champagne and Carpe Diem. We made the mistake of going to Pink Champagne. It was pretty much as trashy as the name suggests (not that I have a huge problem with that) but didn't really have anything else to offer.
 
@@ -26,7 +27,7 @@ Writing this over 6 months later I can still visualize and experience FOMO think
 
 {% include print_album_image.html album_index=1 %}
 
-[Soundwave: The Final Wave](soundwavecroatia)
+[Soundwave: The Final Wave][soundwavecroatia]{% include anchor-attributes.html %}.
 
 I did not get enough photos from the festival. The few others I did take were not very good.
 
@@ -38,7 +39,7 @@ Very high contrast, fast-shutter image.
 
 The drawbridge connects Murter Island to the town of Tisno, on the mainland, are just 38 metres apart.
 
-[This viral video](tisno-bridge-jump) shows the amazing moment someone drove over it as it was raising.
+[This viral video](tisno-bridge-jump) shows the moment someone drove over it as it was raising.
 
 {% include print_album_image.html album_index=3 %}
 
@@ -60,6 +61,8 @@ The last day of the trip. This was the first time I experienced being on holiday
 
 It was about 36 degrees outside and we were unable to find anywhere with aircon. We were all ready to go home but our flight didn't leave for several hours.
 
+[hvar-island]: https://en.wikipedia.org/wiki/Hvar
+[hvar-town]: https://en.wikipedia.org/wiki/Hvar_(city)
 [soundwavecroatia]: https://web.archive.org/web/20180726023514/https://www.soundwavecroatia.com/
 [tisno-bridge-jump]: https://www.youtube.com/watch?v=-Hr98LHjq1Q
 [tisno-bridge-jump-newsflare]: https://www.newsflare.com/video/24021/crime-accidents/car-jumps-across-rising-bridge-in-croatia?a=on
