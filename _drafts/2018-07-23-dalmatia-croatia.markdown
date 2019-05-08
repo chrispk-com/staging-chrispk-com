@@ -6,24 +6,23 @@ layout: post
 categories: 35mm
 album: 2018-07-dalmatia-croatia
 excerpt: >
-  See photos from Soundwave (a music festival held at the Tisno Garden in Croatia),
-  Tisno (the closest nearby town), Hvar and Zadar which were taken as part of a 12 day roadtrip through adriatic countries Croatia and Bosnia.
+  See photos from Soundwave 10: The Final Wave (a music festival held in 2018 at the Tisno Garden in Croatia),
+  the nearby town called Tisno, Hvar Islabd and Zadar which were taken as part of a 12 day roadtrip
+  through adriatic countries, Croatia and Bosnia.
 ---
 {% assign album = site.data.albums[page.album] %}
-
-These photos needed considerably more colour correct than normal.
 
 {% include print_album_image.html album_index=0 %}
 
 [Hvar Island][hvar-island]{% include anchor-attributes.html %}.
 
-This shot overlooks the islands main town, also called [Hvar][hvar-town]{% include anchor-attributes.html %}.
+This shot overlooks the islands main settlement, a port town also called [Hvar][hvar-town]{% include anchor-attributes.html %}.
 
-There are a couple of nightclubs on the island, Pink Champagne and Carpe Diem. We made the mistake of going to Pink Champagne. It was pretty much as trashy as the name suggests (not that I have a huge problem with that) but didn't really have anything else to offer.
+There are a couple of nightclubs on the island, Pink Champagne and Carpe Diem. We made the mistake of going to Pink Champagne. It was as trashy as the name suggests (not that I have a huge problem with that) but didn't really have anything else to offer.
 
-Carpe Diem, in retrospect, was where we should have gone. Not actually on the island, Carpe Diem was a beach/club that you had to take a boat to get to. We did visit what I believe to be Carpe Diem's associated bar on the mainland (also called Carpe Diem). The music there was different but surpirsingly good - I have distinct memories of listing to Opus by Eric Pritz and not knowing what was going on.
+[Carpe Diem][carpe-diem-hvar]{% include anchor-attributes.html %}, in retrospect, was where we should have gone. Not actually on the island of Hvar, Carpe Diem was a club which a required a boat ride to reach. Writing this over 6 months later I stillm experience some FOMO thinking about it.
 
-Writing this over 6 months later I can still visualize and experience FOMO thinking of what Carpe Diem could have been.
+Whilst on Hvar we did visit Carpe Diem's associated bar (also called Carpe Diem) which was on the mainland. The music there was unexpected - I have distinct memories of hearing [Opus by Eric Pritz][opus-eric-pritz]{% include anchor-attributes.html %} and it's never ending crescendo for the first time whilst wandering around drink in hand.
 
 {% include print_album_image.html album_index=1 %}
 
@@ -35,11 +34,9 @@ I did not get enough photos from the festival. The few others I did take were no
 
 Tisno bridge.
 
-Very high contrast, fast-shutter image.
+I like the high contrast, fast-shutter effect of this image.
 
-The drawbridge connects Murter Island to the town of Tisno, on the mainland, are just 38 metres apart.
-
-[This viral video](tisno-bridge-jump) shows the moment someone drove over it as it was raising.
+The drawbridge connects Murter Island to the town of Tisno, on the mainland, are just 38 metres apart. I felt [this video](tisno-bridge-jump), which shows the moment someone drove over the bridge whilst it was being raised, was worth including.
 
 {% include print_album_image.html album_index=3 %}
 
@@ -63,6 +60,8 @@ It was about 36 degrees outside and we were unable to find anywhere with aircon.
 
 [hvar-island]: https://en.wikipedia.org/wiki/Hvar
 [hvar-town]: https://en.wikipedia.org/wiki/Hvar_(city)
+[carpe-diem-hvar]: http://www.carpe-diem-hvar.com/
+[opus-eric-pritz]: https://www.youtube.com/watch?v=iRA82xLsb_w
 [soundwavecroatia]: https://web.archive.org/web/20180726023514/https://www.soundwavecroatia.com/
 [tisno-bridge-jump]: https://www.youtube.com/watch?v=-Hr98LHjq1Q
 [tisno-bridge-jump-newsflare]: https://www.newsflare.com/video/24021/crime-accidents/car-jumps-across-rising-bridge-in-croatia?a=on
