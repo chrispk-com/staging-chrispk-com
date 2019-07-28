@@ -55,5 +55,5 @@ exclude:
   - package.json
   - gulpfile.js
   - node_modules
-  - assets
+  - git_submodules
   - README.md

@@ -31,5 +31,6 @@ pkg/
 test/dest
 tmp/*
 
-# NPM
+# Vendor
 node_modules/
+git_submodules/*
