@@ -6,8 +6,9 @@ layout: post
 categories: 35mm
 album: 2018-07-dalmatia-croatia
 excerpt: >
-  See photos from Soundwave 10: The Final Wave (a music festival held in 2018 at the Tisno Garden in Croatia),
-  the nearby town called Tisno, Hvar Islabd and Zadar which were taken as part of a 12 day roadtrip
+  See photos from Soundwave 10: The Final Wave (a music festival
+  held in 2018 at the Tisno Garden in Croatia), the nearby town called Tisno,
+  Hvar Islabd and Zadar which were taken as part of a 12 day roadtrip
   through adriatic countries, Croatia and Bosnia.
 ---
 {% assign album = site.data.albums[page.album] %}
@@ -34,9 +35,9 @@ I did not get enough photos from the festival. The few others I did take were no
 
 Tisno bridge.
 
-I like the high contrast, fast-shutter effect of this image.
-
 The drawbridge connects Murter Island to the town of Tisno, on the mainland, are just 38 metres apart. I felt [this video](tisno-bridge-jump), which shows the moment someone drove over the bridge whilst it was being raised, was worth including.
+
+I like the high contrast, fast-shutter effect of this image.
 
 {% include print_album_image.html album_index=3 %}
 
