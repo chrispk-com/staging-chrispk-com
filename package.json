@@ -1,0 +1,14 @@
+{
+  "name": "chrispk.com",
+  "version": "1.0.0",
+  "description": "Personal blog of Chris Park-Kennaby. Mostly posting my travel photography",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

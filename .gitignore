@@ -30,3 +30,6 @@ gh-pages/
 pkg/
 test/dest
 tmp/*
+
+# NPM
+node_modules/
