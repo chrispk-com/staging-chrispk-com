@@ -9,14 +9,11 @@ const cssSrc = srcDir + '/sass/**/*.?(s)css';
 const jsSrc = srcDir + '/js/**/*.js';
 
 gulp.task('css', () => {
-	gulp.src(cssSrc)
-		.pipe(sass())
+	return gulp.src(cssSrc)
+		.pipe(sass({includePaths: ['git_submodules/minima/_sass/']}))
 		.pipe(concat('main.css'))
 		.pipe(gulp.dest('assets'));
 });
 
-gulp.task('watch', () => {
-	gulp.watch(cssSrc, ['sass']);
-});
 
-gulp.task('default', ['css', 'watch']);
+//gulp.task('default', ['css']);
