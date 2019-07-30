@@ -10,28 +10,28 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-      {% assign album = site.data.albums[post.album] %}
+      {%- assign album = site.data.albums[post.album] -%}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}{% include get_album_info.html %}</span>
+        <span class="post-meta">{{ post.date | date: date_format }}{%- include get_album_info.html -%}</span>
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
         {% if album.photos.size > 0 %}
-          {% assign cover_image = 0 %}
-          {% if album.cover and album.cover < album.photos.size %}
-            {% assign cover_image = album.cover %}
-          {% endif %}
-          <a class="post-link" href="{{ post.url | relative_url }}"><img title="{{ post.title | escape }}" src="{{ album.photos[cover_image].src }}=w740" alt="{{ post.excerpt | escape | strip }}"></a>
+          {%- assign cover_image = 0 -%}
+          {%- if album.cover and album.cover < album.photos.size -%}
+            {%- assign cover_image = album.cover -%}
+          {%- endif -%}
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            <img title="{{ post.title | escape }}" src="{{ album.photos[cover_image].src }}=w740" alt="{{ post.excerpt | escape | strip }}">
+          </a>
         {% endif %}
       </li>
     {% endfor %}
   </ul>
-  
   {% comment %} 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {% endcomment %} 
-
 </div>
 
 
