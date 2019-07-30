@@ -2,4 +2,7 @@
 	{% assign image = album.photos[include.album_index] %}
 {% endif %}
 
-![{{ image.alt }}]({{ image.src }}=w740-h740 "{{ image.title }}")
+{%- comment -%}![{{ image.alt }}]({{ image.src }}=w740-h740 "{{ image.title }}"){%- endcomment -%}
+<div class="img-contaner">
+	<p><img src="{{ image.src | append: '=w740-h740' }}" alt="{{ image.alt }}" title="{{ image.title }}" /></p>
+</div>

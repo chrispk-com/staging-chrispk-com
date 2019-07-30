@@ -1,0 +1,9 @@
+/**
+ * Custom SASS
+ */
+@include media-query($on-palm) {
+	.img-container {
+		margin-right:-15px;
+		margin-left:-15px;
+	}
+}
