@@ -505,3 +505,10 @@ table {
   .highlight .il {
     color: #099; }
 
+/**
+ * Custom SASS
+ */
+@media screen and (max-width: 600px) {
+  .img-container {
+    margin-right: -15px;
+    margin-left: -15px; } }
