@@ -60,3 +60,4 @@ exclude:
   - node_modules
   - git_submodules
   - README.md
+  - CNAME
