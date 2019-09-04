@@ -35,13 +35,13 @@ I did not get enough photos from the festival. The few others I did take were no
 
 Tisno bridge.
 
-The drawbridge connects Murter Island to the town of Tisno, on the mainland, are just 38 metres apart. I felt [this video](tisno-bridge-jump), which shows the moment someone drove over the bridge whilst it was being raised, was worth including.
+This drawbridge connects Murter Island and Tisno, the closest town on the mainland, which are sperated by just 38 metres of water. I felt that [this video](tisno-bridge-jump), which I came across whilst researching Tisno and the drawbridge, was worth including.
 
 I like the high contrast, fast-shutter effect of this image.
 
 {% include print_album_image.html album_index=3 %}
 
-My plans to hike up the festival site's neighbouring hill (and, of course, get a photo) were foiled by mild alcohol poisoning which dampened the last few days spent in Tisno.
+My plans to hike up the festival site's neighbouring hill (and get a photo) were foiled by mild alcohol poisoning which dampened the last few days spent in Tisno.
 
 I settled, and mildly insisted, on driving up another nearby hill on our departure from Tisno. The roads were confusing and getting to the top took far longer than expected but the views were worth it.
 
@@ -51,7 +51,7 @@ Partially obscured by hilltop foliage you can see The Tisno Garden (the festival
 
 The Adriatic sea.
 
-I don't have a lot to say about this photo despite using it as the cover image for this post. I like the way this photo convey's the beauty, freedom and fun of island hopping in Croatia (and other Adriatic coutries).
+I don't have a lot to say about this photo despite using it as the cover image for this post. I like the way this photo convey's the beauty, freedom and fun of island hopping in Croatia (and other Adriatic countries).
 
 {% include print_album_image.html album_index=5 %}
 
