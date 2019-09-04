@@ -22,6 +22,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chrispk.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:title/
+author: Chris Park-Kennaby
 twitter_username: chrispykay
 github_username:  chrispk
 instagram_username: beingchrispy
