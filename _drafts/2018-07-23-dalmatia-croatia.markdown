@@ -21,7 +21,7 @@ This shot overlooks the islands main settlement, a port town also called [Hvar][
 
 There are a couple of nightclubs on the island, Pink Champagne and Carpe Diem. We made the mistake of going to Pink Champagne. It was as trashy as the name suggests (not that I have a huge problem with that) but didn't really have anything else to offer.
 
-[Carpe Diem][carpe-diem-hvar]{% include anchor-attributes.html %}, in retrospect, was where we should have gone. Not actually on the island of Hvar, Carpe Diem was a club which a required a boat ride to reach. Writing this over 6 months later I stillm experience some FOMO thinking about it.
+[Carpe Diem][carpe-diem-hvar]{% include anchor-attributes.html %}, in retrospect, was where we should have gone. Not actually on the island of Hvar, Carpe Diem was a club which required a boat ride to reach. Writing this over 6 months later I still experience some FOMO thinking about it.
 
 Whilst on Hvar we did visit Carpe Diem's associated bar (also called Carpe Diem) which was on the mainland. The music there was unexpected - I have distinct memories of hearing [Opus by Eric Pritz][opus-eric-pritz]{% include anchor-attributes.html %} and it's never ending crescendo for the first time whilst wandering around drink in hand.
 
