@@ -508,10 +508,16 @@ table {
 /**
  * Custom SASS
  */
-@media screen and (max-width: 600px) {
-  .img-container {
-    margin-right: -15px;
-    margin-left: -15px; } }
+.container-img-album {
+  text-align: center;
+  background: #F0F0F0; }
+  @media screen and (max-width: 600px) {
+    .container-img-album {
+      margin-right: -15px;
+      margin-left: -15px; } }
+
+.img-album {
+  max-height: 95vh; }
 
 .language-ssh-public-key {
   overflow-x: auto;

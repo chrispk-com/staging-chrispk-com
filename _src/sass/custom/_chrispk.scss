@@ -1,11 +1,18 @@
 /**
  * Custom SASS
  */
-@include media-query($on-palm) {
-	.img-container {
-		margin-right:-15px;
-		margin-left:-15px;
-	}
+
+.container-img-album {
+    text-align: center;
+    background: #F0F0F0;
+    @include media-query($on-palm) {
+    	margin-right:-15px;
+    	margin-left:-15px;
+    }
+}
+
+.img-album {
+    max-height: 95vh;
 }
 
 .language-ssh-public-key {
