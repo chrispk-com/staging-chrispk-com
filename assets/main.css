@@ -511,7 +511,8 @@ table {
 .container-img-album {
   text-align: center;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 15px; }
   @media screen and (max-width: 600px) {
     .container-img-album {
       margin-right: -15px;

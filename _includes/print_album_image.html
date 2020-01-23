@@ -7,5 +7,5 @@
 	{%- if image.portrait -%}
       <div class="container-bg-img-album"><div class="bg-img-album" style="background: url({{ image.src | append: '=w740-h740' }}); background-size: cover;background-position: center;background-repeat: no-repeat;"></div></div>
     {%- endif -%}
-	<p><img src="{{ image.src | append: '=w740-h740' }}" alt="{{ image.alt | escape }}" title="{{ image.title | escape }}" class="img-album" /></p>
+	<img src="{{ image.src | append: '=w740-h740' }}" alt="{{ image.alt | escape }}" title="{{ image.title | escape }}" class="img-album" />
 </div>
