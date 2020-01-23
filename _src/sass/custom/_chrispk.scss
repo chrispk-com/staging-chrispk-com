@@ -1,11 +1,38 @@
 /**
  * Custom SASS
  */
-@include media-query($on-palm) {
-	.img-container {
-		margin-right:-15px;
-		margin-left:-15px;
-	}
+
+.container-img-album {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    @include media-query($on-palm) {
+    	margin-right:-15px;
+    	margin-left:-15px;
+    }
+}
+
+.img-album {
+    max-height: 95vh;
+}
+
+.container-bg-img-album {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    max-height: 95vh;
+    overflow: hidden;
+}
+.bg-img-album {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.05);
+    filter: blur(5px) brightness(50%) saturate(0.7);
+    -moz-filter: blur(5px) brightness(50%) saturate(0.7);
+    -o-filter: blur(5px) brightness(50%) saturate(0.7);
+    -ms-filter: blur(5px) brightness(50%) saturate(0.7);
 }
 
 .language-ssh-public-key {

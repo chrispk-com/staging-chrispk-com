@@ -22,9 +22,12 @@ layout: default
           {%- if album.cover and album.cover < album.photos.size -%}
             {%- assign cover_image = album.cover -%}
           {%- endif -%}
-          <div class="img-container">
+          <div class="container-img-album">
+            {%- if album.photos[cover_image].portrait -%}
+              <div class="container-bg-img-album"><div class="bg-img-album" style="background: url({{ album.photos[cover_image].src | append: '=w740-h740' }}); background-size: cover;background-position: center;background-repeat: no-repeat;"></div></div>
+            {%- endif -%}
             <a class="post-link" href="{{ post.url | relative_url }}">
-              <img title="{{ post.title | escape }}" src="{{ album.photos[cover_image].src }}=w740" alt="{{ post.excerpt | escape | strip }}">
+              <img title="{{ post.title | escape }}" src="{{ album.photos[cover_image].src | append: '=w740-h740' }}" alt="{{ post.excerpt | escape | strip }}" class="img-album">
             </a>
           </div>
         {% endif %}
