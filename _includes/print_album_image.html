@@ -3,7 +3,7 @@
 {% endif %}
 
 {%- comment -%}![{{ image.alt }}]({{ image.src }}=w740-h740 "{{ image.title }}"){%- endcomment -%}
-<div class="container-img-album{%- if album.photos[cover_image].portrait -%} container-img-album-portrait{%- endif -%}">
+<div class="container-img-album">
 	{%- if image.portrait -%}
       <div class="container-bg-img-album"><div class="bg-img-album" style="background: url({{ image.src | append: '=w740-h740' }}); background-size: cover;background-position: center;background-repeat: no-repeat;"></div></div>
     {%- endif -%}

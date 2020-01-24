@@ -22,7 +22,7 @@ layout: default
           {%- if album.cover and album.cover < album.photos.size -%}
             {%- assign cover_image = album.cover -%}
           {%- endif -%}
-          <div class="container-img-album{% if album.photos[cover_image].portrait %} container-img-album-portrait{% endif %}">
+          <div class="container-img-album">
             {%- if album.photos[cover_image].portrait -%}
               <div class="container-bg-img-album"><div class="bg-img-album" style="background: url({{ album.photos[cover_image].src | append: '=w740-h740' }}); background-size: cover;background-position: center;background-repeat: no-repeat;"></div></div>
             {%- endif -%}
