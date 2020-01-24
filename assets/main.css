@@ -520,7 +520,7 @@ table {
 
 @media screen and (min-width: 600px) {
   .container-img-album-portrait ins.adsbygoogle {
-    display: none; } }
+    display: none !important; } }
 
 @media screen and (max-width: 600px) {
   .container-img-album-portrait .container-bg-img-album {
