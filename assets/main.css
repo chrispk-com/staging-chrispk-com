@@ -518,6 +518,14 @@ table {
       margin-right: -15px;
       margin-left: -15px; } }
 
+@media screen and (min-width: 600px) {
+  .container-img-album-portrait ins.adsbygoogle {
+    display: none; } }
+
+@media screen and (max-width: 600px) {
+  .container-img-album-portrait .container-bg-img-album {
+    display: none; } }
+
 .img-album {
   max-height: 95vh; }
 
