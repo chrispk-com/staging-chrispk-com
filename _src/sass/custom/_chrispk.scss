@@ -1,7 +1,6 @@
 /**
  * Custom SASS
  */
-
 .container-img-album {
     text-align: center;
     position: relative;
@@ -9,6 +8,19 @@
     @include media-query($on-palm) {
     	margin-right:-15px;
     	margin-left:-15px;
+    }
+}
+
+.container-img-album-portrait {
+    @media screen and (min-width: $on-palm) {
+       ins.adsbygoogle {
+            display: none;
+        }
+    }
+    @include media-query($on-palm) {
+        .container-bg-img-album {
+            display: none;
+        }
     }
 }
 
