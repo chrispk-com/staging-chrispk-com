@@ -15,7 +15,7 @@
 .container-img-album-portrait {
     @media screen and (min-width: $on-palm) {
        ins.adsbygoogle {
-            display: none;
+            display: none !important;
         }
     }
     @include media-query($on-palm) {
