@@ -543,8 +543,10 @@ table {
     z-index: -1; }
 
 .img-album {
-  max-height: 95vh;
-  min-height: 491px; }
+  max-height: 95vh; }
+  @media screen and (min-width: 800px) {
+    .img-album {
+      min-height: 491px; } }
 
 .language-ssh-public-key {
   overflow-x: auto;
