@@ -1,10 +1,34 @@
-<img srcset="{{ image.src | append: '=s740' }} 480w,
-             {{ image.src | append: '=s740' }} 800w"
-     sizes="(max-width: 600px) 480px,
-            800px"
+{%- comment -%}
+# Using Google's Material Design breakpoint system
+# https://material.io/design/layout/responsive-layout-grid.html#breakpoints
+{%- endcomment -%}
+
+{%- if page.layout == 'home' -%}{%- assign image = album.photos[cover_image] -%}{%- endif -%}
+
+{%- assign desktop_width = '740px' -%}
+{%- if image.portrait -%}{%- assign desktop_width = '66.6vh' -%}{%- endif -%}
+
+<img srcset="{{ image.src | append: '=w360' }} 360w,
+			 {{ image.src | append: '=w400' }} 400w,
+			 {{ image.src | append: '=w480' }} 480w,
+			 {{ image.src | append: '=w600' }} 600w,
+			 {{ image.src | append: '=w720' }} 720w,
+			 {{ image.src | append: '=w740' }} 740w,
+			 {{ image.src | append: '=w800' }} 800w,
+			 {{ image.src | append: '=w840' }} 840w,
+			 {{ image.src | append: '=w960' }} 960w,
+			 {{ image.src | append: '=w1024' }} 1024w,
+			 {{ image.src | append: '=w1280' }} 1280w,
+			 {{ image.src | append: '=w1440' }} 1440w,
+			 {{ image.src | append: '=w1600' }} 1600w,
+			 {{ image.src | append: '=w1920' }} 1920w"
+     
+     sizes="(max-width: 800px) 100vw,
+			(orientation: portrait) 100vw,
+            {{ desktop_width }}"
      src="{{ image.src | append: '=s740' }}"
-     alt="{{ image.alt | escape }}"
-     title="{{ image.title | escape }}"
-     {%- if include.class -%}
-     class="{{ include.class }}"
-     {%- endif -%}>
+     alt="{%- if page.layout == 'home' -%}{{ post.excerpt | escape | strip }}{%- else -%}{{ image.alt | escape }}{%- endif -%}"
+     title="{%- if page.layout == 'home' -%}{{ post.title | escape }}{%- else -%}{{ image.title | escape }}{%- endif -%}"
+     {% if include.class %}
+     	class="{{ include.class | escape }}"
+     {% endif %}>
