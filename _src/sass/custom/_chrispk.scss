@@ -2,51 +2,76 @@
  * Custom SASS
  */
 .container-img-album {
+    background: #DDD;
     text-align: center;
     position: relative;
     overflow: hidden;
+    z-index: 0;
     margin-bottom:15px;
     @include media-query($on-palm) {
     	margin-right:-15px;
     	margin-left:-15px;
     }
-}
-
-.container-img-album-portrait {
-    @media screen and (min-width: $on-palm) {
-       ins.adsbygoogle {
-            display: none !important;
-        }
+    &::before {
+        content: "";
+        width: 1px;
+        margin-left: -1px;
+        float: left;
+        height: 0;
+        padding-top: 65.4%;
     }
-    @include media-query($on-palm) {
-        .container-bg-img-album {
-            display: none;
-        }
+    &::after {
+        content: "";
+        clear: both;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: var(--background);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% auto;
+        filter: blur(8px) saturate(0.7) brightness(0.8);
+        transform: scale(1.05);
+        z-index: -1;
     }
 }
-
 .img-album {
     max-height: 95vh;
+    min-height: 491px;
 }
 
-.container-bg-img-album {
-    display: block;
-    position: absolute;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    max-height: 95vh;
-    overflow: hidden;
-}
-.bg-img-album {
-    width: 100%;
-    height: 100%;
-    transform: scale(1.05);
-    filter: blur(5px) brightness(50%) saturate(0.7);
-    -moz-filter: blur(5px) brightness(50%) saturate(0.7);
-    -o-filter: blur(5px) brightness(50%) saturate(0.7);
-    -ms-filter: blur(5px) brightness(50%) saturate(0.7);
-}
+// .container-img-album-portrait {
+//     @media screen and (min-width: $on-palm) {
+//        ins.adsbygoogle {
+//             display: none !important;
+//         }
+//     }
+//     @include media-query($on-palm) {
+//         .container-bg-img-album {
+//             display: none;
+//         }
+//     }
+// }
+// .container-bg-img-album {
+//     display: block;
+//     position: absolute;
+//     z-index: -1;
+//     height: 100%;
+//     width: 100%;
+//     max-height: 95vh;
+//     overflow: hidden;
+// }
+// .bg-img-album {
+//     width: 100%;
+//     height: 100%;
+//     transform: scale(1.05);
+//     filter: blur(5px) brightness(50%) saturate(0.7);
+//     -moz-filter: blur(5px) brightness(50%) saturate(0.7);
+//     -o-filter: blur(5px) brightness(50%) saturate(0.7);
+//     -ms-filter: blur(5px) brightness(50%) saturate(0.7);
+// }
 
 .language-ssh-public-key {
     overflow-x: auto;
