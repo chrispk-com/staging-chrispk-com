@@ -4,5 +4,5 @@
 
 {%- comment -%}![{{ image.alt }}]({{ image.src }}=w740-h740 "{{ image.title }}"){%- endcomment -%}
 <div class="container-img-album" {% if image.base64-s40 %}style="--background: url(data:image/jpg;base64,{{ image.base64-s40 }}"{% endif %}>
-	<img src="{{ image.src | append: '=s740' }}" alt="{{ image.alt | escape }}" title="{{ image.title | escape }}" class="img-album" />
+	{% include print_responsive_image.html class="img-album" %}
 </div>
