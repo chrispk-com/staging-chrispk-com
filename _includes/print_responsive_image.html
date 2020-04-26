@@ -1,0 +1,10 @@
+<img srcset="{{ image.src | append: '=s740' }} 480w,
+             {{ image.src | append: '=s740' }} 800w"
+     sizes="(max-width: 600px) 480px,
+            800px"
+     src="{{ image.src | append: '=s740' }}"
+     alt="{{ image.alt | escape }}"
+     title="{{ image.title | escape }}"
+     {%- if include.class -%}
+     class="{{ include.class }}"
+     {%- endif -%}>
