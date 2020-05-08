@@ -3,8 +3,6 @@
 # https://material.io/design/layout/responsive-layout-grid.html#breakpoints
 {%- endcomment -%}
 
-{%- if page.layout == 'home' -%}{%- assign image = album.photos[cover_image] -%}{%- endif -%}
-
 {%- assign desktop_width = '740px' -%}
 {%- if image.portrait -%}{%- assign desktop_width = '66.6vh' -%}{%- endif -%}
 

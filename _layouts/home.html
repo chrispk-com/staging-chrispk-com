@@ -22,9 +22,10 @@ layout: default
           {%- if album.cover and album.cover < album.photos.size -%}
             {%- assign cover_image = album.cover -%}
           {%- endif -%}
+          {%- assign image = album.photos[cover_image] -%}
           {%- assign desktop_width = '740px' -%}
-          {%- if image.portrait -%}{%- assign desktop_width = '66.6vh' -%}{%- endif -%}
-          <div class="container-img-album" {% if album.photos[cover_image].base64-s40 %}style="--background: url(data:image/jpg;base64,{{ album.photos[cover_image].base64-s40 }}"{% endif %}>
+            {%- if image.portrait -%}{%- assign desktop_width = '66.6vh' -%}{%- endif -%}
+          <div class="container-img-album" {% if image.base64-s40 %}style="--background: url(data:image/jpg;base64,{{ image.base64-s40 }});"{% endif %}>
             <a class="post-link" href="{{ post.url | relative_url }}">
               
               {% include print_responsive_image.html class="img-album" %}
