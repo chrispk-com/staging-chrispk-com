@@ -1,7 +1,7 @@
 ---
 title: 	The Secret Garden Party 2010
 slug: secret-garden-party
-last_modified_at:
+last_modified_at: 2020-09-19
 layout:	post
 categories: 35mm
 album: 2010-secret-garden-party
@@ -20,7 +20,7 @@ A portrait someone took of me. I suspect this was taken well before Secret Garde
 The *Is Land*, a £12,000 art peice which was cut from it's tethers at 3am on Sunday, was last seen in Huntingdon, Cambridgeshire, 400 metres up. Speculators think it might have made it to Slovenia. Here's [The Guardian's article][] (cached [here][cached Guardian article]) on the floating island.
 
 [The Guardian's article]: https://www.theguardian.com/artanddesign/2011/aug/02/missing-inflatable-island-secret-garden "One of our islands is missing"
-[cached Guardian article]: http://webcache.googleusercontent.com/search?q=cache:https://www.theguardian.com/artanddesign/2011/aug/02/missing-inflatable-island-secret-garden "One of our islands is missing"
+[cached Guardian article]: https://web.archive.org/web/20190911003306/https://www.theguardian.com/artanddesign/2011/aug/02/missing-inflatable-island-secret-garden "One of our islands is missing"
 
 
 {% assign image = album.photos[2] %}{% include print_album_image.html %}
