@@ -11,7 +11,7 @@ excerpt: >
 
 {% assign album = site.data.albums[page.album] %}
 
-I travelled to South Africa at the end of October to attend meetings with some of the country's sports and entertainment broadcasters during the inaugural [Adweek Africa][adweek-africa] event in Johannesburg. Adweek was ultimately cancelled due to [violent, xenophobia related, events][gauteng-violent-events] but the meetings that had been arranged, where I was representing YouTube as a Partner Technology Manager, still took place.
+I travelled to South Africa at the end of October to attend meetings with some of the country's sports and entertainment broadcasters during the inaugural [Adweek Africa][adweek-africa] event in Johannesburg. Adweek was ultimately cancelled due to recent [xenophobia related violence][gauteng-violent-events] ([cached here][gauteng-violent-events-cache]) but the meetings that had been arranged, where I was representing YouTube as a Partner Technology Manager, still took place.
 
 I arrived in Johannesburg on Thursday, 31st October, and stayed in the city for 7 nights. This time was mostly spent working but in the evenings I enjoyed checking out Johannesburg's upscale restaurants, such as sister restaurants [Marble][marble-restaurant] and [Saint][saint-restaurant], and visiting the [Aparteid Museum][apartheid-museum], an impactful and somewhat overwhelming experience, on Sunday.
 
@@ -75,7 +75,7 @@ A small herd of antelope that we passed. One of the few nice images I was able t
 
 {% include print_album_image.html album_index=7 %}
 
-As I was leaving Bakubung Bush Lodge that afternoon a solitary elephant was making it's way across the park. In that moment I had a strong sense of connection with the importance of wildlife reserves, like Pilanesberg National Park, and the extreme vulnerability of the animals that were being protected by them.
+As I was leaving Bakubung Bush Lodge that afternoon, a solitary elephant was making it's way across the park. In that moment I had a strong sense of connection with the importance of wildlife reserves, like Pilanesberg National Park, and the extreme vulnerability of the animals that were being protected by them.
 
 {% include print_album_image.html album_index=8 %}
 
@@ -85,6 +85,8 @@ As it turned out my flight to Cape Town was delayed, and the knock-on consequenc
 
 [adweek-africa]: https://africa.advertisingweek.com/
 [gauteng-violent-events]: https://www.news24.com/news24/southafrica/news/gauteng-xenophobic-violence-10-of-12-victims-were-south-africans-defence-minister-20190910
+[gauteng-violent-events-cache]: https://web.archive.org/web/20200919225708/https://www.news24.com/news24/southafrica/news/gauteng-xenophobic-violence-10-of-12-victims-were-south-africans-defence-minister-20190910
+
 [marble-restaurant]: https://marble.restaurant/
 [saint-restaurant]: https://saint.restaurant/
 [apartheid-museum]: https://www.apartheidmuseum.org/
