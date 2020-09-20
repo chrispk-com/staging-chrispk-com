@@ -41,7 +41,7 @@ The Lion King (of the [Lion and Cheetah Sanctuary][lion-and-cheetah-santuary]).
 
 {% include print_album_image.html album_index=4 %}
 
-The 2 lioness' were both quite - or very - overweight. It turned out that this was related to the contraception they had been prescribed.
+The two lioness' were both quite - or very - overweight. It turned out that this was related to the contraception they had been prescribed.
 
 I need to admit I found this quite funny. I don't think I'd ever considered the concept of medicinal contraceptives for animals and it raised many questions. Are there different versions of "the pill" available? Does it affect their mood?
 
@@ -72,7 +72,7 @@ I got up at around 4:30am the next morning, had some breakfast at the restaurant
 
 {% include print_album_image.html album_index=6 %}
 
-Of the [Big 5][big-5], we crossed paths with lions and rhinos. However the 22-seater bus that we were on was quite prohibitive to taking good photos (and my 35mm lens, which is quite wide on a full frame camera, didn't help either).
+Of the [Big 5][big-5], we crossed paths with lions and black rhinos (shown above). However the 22-seater bus that we were on was quite prohibitive to taking good photos (and my 35mm lens, which is quite wide on a full frame camera, didn't help either).
 
 {% include print_album_image.html album_index=7 %}
 
