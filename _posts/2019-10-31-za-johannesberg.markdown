@@ -29,7 +29,7 @@ The cheetahs, and other animals that were there, were kept in fairly large enclo
 
 {% include print_album_image.html album_index=2 %}
 
-The giraffes were extremely skittish, presumably more-so because of their calf, so it wasn't possible to get much closer to these animals. Every time I moved they would look up and stare at me for some time before cautiously going back to grazing on the neary foliage.
+The giraffes were extremely skittish, presumably more-so because of their calf, so it wasn't possible to get much closer to these animals. Every time I moved they would look up and stare at me for some time before cautiously going back to grazing on the nearby foliage.
 
 The lions, of which there was 1 male and 2 females, were kept in a seperate enclosure to the cheetahs. All of them were asleep.
 
