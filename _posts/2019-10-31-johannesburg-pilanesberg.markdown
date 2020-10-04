@@ -1,12 +1,15 @@
 ---
 title: Johannesburg & Pilanesberg | South Africa
 slug: johannesburg-pilanesberg
-last_modified_at: 2020-09-20
+last_modified_at: 2020-10-04
 layout: post
 categories: 35mm
 album: 2019-10-johannesburg-pilanesberg
 excerpt: >
-  
+    See photos taken at the Lion and Cheetah Sanctuary in Pretoria
+    and Pilanesberg National Park & Game Reserve in South Africa
+    during a trip to Johannesburg, for work and vacation, during
+    October and November 2019
 ---
 
 {% assign album = site.data.albums[page.album] %}
