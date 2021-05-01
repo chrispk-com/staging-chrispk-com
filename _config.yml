@@ -65,3 +65,4 @@ exclude:
   - git_submodules
   - README.md
   - CNAME
+  - Dockerfile
