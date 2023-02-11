@@ -23,5 +23,5 @@ docker-compose down
 Optionally, add the following to your `hosts` file to make the site avaiable at [local.chrispk.com](http://local.chrispk.com) (required for some image serving to function correctly):
 
 ```
-127.0.0.1:4000  local.chrispk.com
+127.0.0.1       local.chrispk.com
 ```
