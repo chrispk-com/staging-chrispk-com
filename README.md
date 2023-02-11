@@ -20,7 +20,7 @@ Remember to cleanup once your are done (optional):
 docker-compose down
 ```
 
-Optionally, add the following to your `hosts` file to make the site avaiable at [local.chrispk.com](http://local.chrispk.com) (required for some image serving to function correctly):
+Optionally, add the following to your `hosts` file to make the site avaiable at [local.chrispk.com:4000](http://local.chrispk.com:4000) (required for some image serving to function correctly):
 
 ```
 127.0.0.1       local.chrispk.com
