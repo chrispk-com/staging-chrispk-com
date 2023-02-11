@@ -33,6 +33,7 @@ google_adsense: ca-pub-1202132740341897
 # Build settings
 markdown: kramdown
 theme: minima
+show_excerpts: true
 # Sync sass compiling with gulp setup
 sass:
   sass_dir: _src/sass

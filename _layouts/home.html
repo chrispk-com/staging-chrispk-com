@@ -32,6 +32,10 @@ layout: default
 
             </a>
           </div>
+        {% else %}
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
         {% endif %}
       </li>
     {% endfor %}
