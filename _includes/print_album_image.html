@@ -2,7 +2,20 @@
 	{% assign image = album.photos[include.album_index] %}
 {% endif %}
 
-{%- comment -%}![{{ image.alt }}]({{ image.src }}=w740-h740 "{{ image.title }}"){%- endcomment -%}
+{%- comment -%}
+# if album image URLs are relative fall back to markdown image string ![alt](source "title")
+{%- endcomment -%}
+{% if image.src contains '://' %}
+
 <div class="container-img-album" {% if image.base64-s40 %}style="--background: url(data:image/jpg;base64,{{ image.base64-s40 }}"{% endif %}>
 	{% include print_responsive_image.html class="img-album" %}
 </div>
+
+{% else %}
+
+{%- assign title_text = 'temp title' -%}
+{% if image.title | size > 0 %}{%- assign title_text = image.title -%}{% endif %}
+
+![{{ image.alt }}]({{ image.src }} "{{ title_text }}")
+
+{% endif %}
