@@ -6,27 +6,29 @@
 {%- assign desktop_width = '740px' -%}
 {%- if image.portrait -%}{%- assign desktop_width = '66.6vh' -%}{%- endif -%}
 
+{%- if page.layout == 'home' -%}<a class="post-link" href="{{ post.url | relative_url }}">{%- endif -%}
 <img srcset="{{ image.src | append: '=w360' }} 360w,
-			 {{ image.src | append: '=w400' }} 400w,
-			 {{ image.src | append: '=w480' }} 480w,
-			 {{ image.src | append: '=w600' }} 600w,
-			 {{ image.src | append: '=w720' }} 720w,
-			 {{ image.src | append: '=w740' }} 740w,
-			 {{ image.src | append: '=w800' }} 800w,
-			 {{ image.src | append: '=w840' }} 840w,
-			 {{ image.src | append: '=w960' }} 960w,
-			 {{ image.src | append: '=w1024' }} 1024w,
-			 {{ image.src | append: '=w1280' }} 1280w,
-			 {{ image.src | append: '=w1440' }} 1440w,
-			 {{ image.src | append: '=w1600' }} 1600w,
-			 {{ image.src | append: '=w1920' }} 1920w"
-     
-     sizes="(max-width: 800px) 100vw,
+			{{ image.src | append: '=w400' }} 400w,
+			{{ image.src | append: '=w480' }} 480w,
+			{{ image.src | append: '=w600' }} 600w,
+			{{ image.src | append: '=w720' }} 720w,
+			{{ image.src | append: '=w740' }} 740w,
+			{{ image.src | append: '=w800' }} 800w,
+			{{ image.src | append: '=w840' }} 840w,
+			{{ image.src | append: '=w960' }} 960w,
+			{{ image.src | append: '=w1024' }} 1024w,
+			{{ image.src | append: '=w1280' }} 1280w,
+			{{ image.src | append: '=w1440' }} 1440w,
+			{{ image.src | append: '=w1600' }} 1600w,
+			{{ image.src | append: '=w1920' }} 1920w"
+	
+	sizes="(max-width: 800px) 100vw,
 			(orientation: portrait) 100vw,
-            {{ desktop_width }}"
-     src="{{ image.src | append: '=s740' }}"
-     alt="{%- if page.layout == 'home' -%}{{ post.excerpt | escape | strip }}{%- else -%}{{ image.alt | escape }}{%- endif -%}"
-     title="{%- if page.layout == 'home' -%}{{ post.title | escape }}{%- else -%}{{ image.title | escape }}{%- endif -%}"
-     {% if include.class %}
-     	class="{{ include.class | escape }}"
-     {% endif %}>
+			{{ desktop_width }}"
+	src="{{ image.src | append: '=s740' }}"
+	alt="{%- if page.layout == 'home' -%}{{ post.excerpt | escape | strip }}{%- else -%}{{ image.alt | escape }}{%- endif -%}"
+	title="{%- if page.layout == 'home' -%}{{ post.title | escape }}{%- else -%}{{ image.title | escape }}{%- endif -%}"
+	{% if include.class %}
+		class="{{ include.class | escape }}"
+	{% endif %}>
+{%- if page.layout == 'home' -%}</a>{%- endif -%}

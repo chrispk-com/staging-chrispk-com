@@ -1,8 +1,31 @@
+{%- comment -%}
+# support custom image order using album_index variable in post markdown
+{%- endcomment -%}
 {% if include.album_index %}
 	{% assign image = album.photos[include.album_index] %}
 {% endif %}
 
-{%- comment -%}![{{ image.alt }}]({{ image.src }}=w740-h740 "{{ image.title }}"){%- endcomment -%}
-<div class="container-img-album" {% if image.base64-s40 %}style="--background: url(data:image/jpg;base64,{{ image.base64-s40 }}"{% endif %}>
-	{% include print_responsive_image.html class="img-album" %}
-</div>
+{%- comment -%}
+# check whether image server supports Google FIFE (Flexible Image Front-End) URL options
+# https://stackoverflow.com/questions/25148567/list-of-all-the-app-engine-images-service-get-serving-url-uri-options
+{%- endcomment -%}
+{%- if image.src contains 'googleusercontent.com' -%}
+
+	<div class="container-img-album" {% if image.base64-s40 %}style="--background: url(data:image/jpg;base64,{{ image.base64-s40 }}"{% endif %}>
+		{% include print_responsive_image.html class="img-album" %}
+	</div>
+
+{%- else -%}
+
+	{%- assign title_text = 'temp title' -%}
+	{% if image.title | size > 0 %}{%- assign title_text = image.title -%}{% endif %}
+
+	{%- if page.layout == 'home' -%}
+	<a class="post-link" href="{{ post.url | relative_url }}">
+		<img src="{{ image.src }}" alt="{{ post.excerpt | escape | strip }}" title="{{ post.title | escape }}" />
+	</a>
+	{%- else -%}
+	![{{ image.alt | escape }}]({{ image.src }} "{{ title_text | escape }}")
+	{%- endif -%}
+
+{%- endif -%}

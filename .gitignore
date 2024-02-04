@@ -32,3 +32,6 @@ tmp/*
 
 # Vendor
 node_modules/
+
+# ignore local temporary assets
+assets/temp/
