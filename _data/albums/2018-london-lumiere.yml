@@ -3,6 +3,7 @@ camera: Nikon F2
 film_stock:
 cover: 0
 album_id: APW052i5cW4mWaqxK9FBKZc9O5cx0O3UQuwEr5sW41IQrMNBDRHjDPskyrjuoTuHH8hnvHRRgYXY
+upload_method: web
 photos:
 - id: APW052jnJPihAA5pRMtnHLnflfUTQVVZyLMA_1dqASMw9guCbOOM9IBFcRqcd6xAdCOys7BLjT6LOhkNzlNeGoDxZLxtvtiy4g
   title: "Waterlicht"
