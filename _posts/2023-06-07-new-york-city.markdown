@@ -6,8 +6,8 @@ layout: post
 categories: 35mm
 album: 2023-06-new-york-city
 excerpt: >
-    See photos...
-    Continue excerpt
+    See photos taken in New York City (on 35mm film) of Manhattan,
+    the 9/11 Memorial & Museum and Brooklyn in June 2023.
 ---
 
 {% assign album = site.data.albums[page.album] %}
