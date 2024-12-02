@@ -33,6 +33,7 @@ google_adsense: ca-pub-1202132740341897
 # Build settings
 markdown: kramdown
 theme: minima
+remote_theme: jekyll/minima
 show_excerpts: true
 # Sync sass compiling with gulp setup
 sass:
@@ -43,6 +44,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
