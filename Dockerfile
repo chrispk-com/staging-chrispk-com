@@ -9,3 +9,4 @@ COPY Gemfile ./Gemfile
 COPY Gemfile.lock ./Gemfile.lock
 
 RUN bundle install
+RUN bundle lock --add-platform x86_64-linux
