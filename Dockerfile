@@ -1,5 +1,5 @@
 #FROM ruby:2.5.9-buster
-FROM ruby:3.3.6-bookworm
+FROM ruby:3.2.2-bookworm
 
 RUN gem update bundler
 
