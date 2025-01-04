@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Chris P-K
-email: contact@chrispk.com
 description: > # this means to ignore newlines until "baseurl:"
   Personal blog of Chris Park-Kennaby. Mostly posting my travel photography
   - shot mainly on 35mm film - on a bi-monthly basis. May also write about
@@ -22,22 +21,26 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chrispk.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:title/
-author: Chris Park-Kennaby
-twitter_username: chrispykay
-github_username:  chrispk
-instagram_username: beingchrispy
-rss: rss
+author:
+  name: Chris Park-Kennaby
+  email: contact@chrispk.com
 contact_page: true
 google_tag_manager: GTM-PSXDMN8
 google_adsense: ca-pub-1202132740341897
 # Build settings
 markdown: kramdown
 theme: minima
-remote_theme: jekyll/minima
+# Changes to specified commit (@<commit_id>) should be refleced in Gemfile
+remote_theme: jekyll/minima@6b9b78dad3e5c9f733c901e10287465735b36169
 show_excerpts: true
-# Sync sass compiling with gulp setup
-sass:
-  sass_dir: _src/sass
+# Minima specific settings, which are only available from Minima 3.0 onward.
+minima:
+  skin: classic
+  social_links:
+   - { platform: bluesky,        user_url: "https://bsky.app/profile/chrispk.bsky.social" }
+   - { platform: github,         user_url: "https://github.com/chrispk" }
+   - { platform: instagram,      user_url: "https://instagram.com/beingchrispy" }
+   - { platform: rss,            user_url: "feed.xml" }
   
 plugins:
   - jekyll-feed
@@ -46,17 +49,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+header_pages:
+  - about.md
 
 exclude:
   - Gemfile

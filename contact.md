@@ -3,7 +3,6 @@ layout: page
 title: Contact
 last_modified_at: 2019-09-04
 permalink: /contact/
-exclude: true
 ---
 
 Want to contact me privately?
