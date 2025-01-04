@@ -24,16 +24,40 @@ layout: base
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
+      {%- comment -%}
+      # Theme customization: Get album data
+      {%- endcomment -%}
+      {%- assign album = site.data.albums[post.album] -%}
       <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        {%- comment -%}
+        # Theme customization:
+        # Print album info (include get_album_info.html)
+        {%- endcomment -%}
+        <span class="post-meta">{{ post.date | date: date_format }} {% include get_album_info.html %}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+        {%- comment -%}
+        # Theme customization:
+        # If album photos exist print album cover
+        # Else continue with default theme behavior (check and show excerpt)
+        {%- endcomment -%}
+        {% if album.photos.size > 0 %}
+          {%- assign cover_image = 0 -%}
+          {%- if album.cover and album.cover < album.photos.size -%}
+            {%- assign cover_image = album.cover -%}
+          {%- endif -%}
+          {%- assign image = album.photos[cover_image] -%}
+          
+          {% include print_album_image.html %}
+
+        {% else %}
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        {% endif %}
       </li>
       {%- endfor -%}
     </ul>

@@ -4,3 +4,20 @@
   1. Head over to https://realfavicongenerator.net/ to add your own favicons.
   2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
+
+{%- comment -%}
+# Theme customization:
+# Add Google Tag Manager (GTM) support
+# Also requires theme customization in _layouts/base.html
+{%- endcomment -%}
+{% if jekyll.environment == 'production' and site.google_tag_manager %}
+  {%- include google-tag-manager-head.html -%}
+{%- endif -%}
+
+{%- comment -%}
+# Theme customization:
+# Add Google Adsense support
+{%- endcomment -%}
+{% if jekyll.environment == 'production' and site.google_adsense %}
+  {%- include google-adsense.html -%}
+{% endif %}

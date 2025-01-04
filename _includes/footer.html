@@ -5,6 +5,9 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
+        {%- comment-%}
+        # Theme customization:
+        # Remove RSS Subscribe element from left column
         <p class="feed-subscribe">
           <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
             <svg class="svg-icon orange">
@@ -12,6 +15,7 @@
             </svg><span>Subscribe</span>
           </a>
         </p>
+        {%- endcomment -%}
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
@@ -22,6 +26,11 @@
           {%- endif %}
         </ul>
       {%- endif %}
+      {%- comment-%}
+      # Theme customization:
+      # Add 'Other ways to contact me'
+      {%- endcomment -%}
+      <p>Other ways to <a href="{% link contact.md %}">contact me</a></p>
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
